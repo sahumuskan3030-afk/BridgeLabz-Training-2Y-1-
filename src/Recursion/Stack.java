@@ -17,9 +17,11 @@ public class Stack {
         System.out.print(arr[idx]+" ");
     }
 
+
     static void main() {
         int[] arr={1,6,4,98,34,23,45};
        print(arr,0);
        Rev(arr,0);
+
     }
 }

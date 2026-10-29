@@ -4,7 +4,7 @@ public class Subsequences {
     public static void orderSequence(String str,int idx,String newstr){
         //base case
         if(idx==str.length()){
-            System.out.print(" "+newstr);
+            System.out.print("|"+newstr+"|");
             return;
         }
 
@@ -16,7 +16,7 @@ public class Subsequences {
     }
 
     static void main() {
-        String str="abcd";
+        String str="abc";
         orderSequence(str,0,"");
     }
 }

@@ -1,5 +1,7 @@
 package LinkedList.Leetcode;
 
+import java.util.Scanner;
+
 public class LinkedListCycle {
     public static class Node{
         int data;
@@ -25,18 +27,39 @@ public class LinkedListCycle {
     }
 
     static void main() {
-        Node a=new Node(10);
-        Node b=new Node(20);
-        Node c=new Node(30);
-        Node d=new Node(40);
-        Node e=new Node(50);
+       Scanner sc=new Scanner(System.in);
+        System.out.println("enter the size linke list");
+        int n=sc.nextInt();
 
-        a.next=b;
-        b.next=c;
-        c.next=d;
-        d.next=e;
+        Node head=null;
+        Node tail=null;
 
-        e.next=b;
-        System.out.println(Cycle(a));
+        System.out.println("enter the value of linkedlist");
+        for(int i=0;i<n;i++){
+            int value=sc.nextInt();
+            Node newNode =new Node(value);
+
+            if(head==null){
+                head=newNode;
+                tail=newNode;
+            }else{
+                tail.next=newNode;
+                tail=newNode;
+            }
+        }
+
+        System.out.println("enter the position where we attached");
+        int pos=sc.nextInt();
+        if(pos>=0 && pos<n){
+            Node temp=head;
+
+            for(int i=0;i<pos;i++){
+                temp=temp.next;
+            }
+            tail.next=temp;
+        }
+
+        System.out.println(Cycle(head));
+
     }
 }

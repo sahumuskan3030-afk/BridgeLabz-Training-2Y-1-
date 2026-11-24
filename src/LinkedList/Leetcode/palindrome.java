@@ -1,6 +1,7 @@
 package LinkedList.Leetcode;
 
-public class palindrome {
+public class
+palindrome {
     public static class Node{
         int val;
         Node next;

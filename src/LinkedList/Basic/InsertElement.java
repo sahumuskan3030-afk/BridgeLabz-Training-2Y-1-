@@ -1,6 +1,7 @@
 package LinkedList.Basic;
 
-public class InsertElement {
+public class
+InsertElement {
     public static class Node {
         int data;
         Node next;

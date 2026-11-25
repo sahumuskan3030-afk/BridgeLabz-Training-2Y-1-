@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Assignment;
 
 public class XpowerN {
     public static int pow(int x,int n){

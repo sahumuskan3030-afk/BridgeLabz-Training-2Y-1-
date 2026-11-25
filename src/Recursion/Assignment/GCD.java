@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Assignment;
 
 public class GCD {
     public static int solve(int x,int y){

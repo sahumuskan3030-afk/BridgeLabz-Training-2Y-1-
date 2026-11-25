@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Assignment;
 
 public class SumOfN {
     public static int sum(int n){

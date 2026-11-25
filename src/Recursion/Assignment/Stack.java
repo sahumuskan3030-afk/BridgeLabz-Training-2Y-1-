@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Assignment;
 
 public class Stack {
     public static void print(int[] arr,int idx){

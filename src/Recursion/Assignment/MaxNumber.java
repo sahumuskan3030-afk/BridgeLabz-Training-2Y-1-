@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Assignment;
 
 public class MaxNumber {
     public static int max(int[] arr,int idx){

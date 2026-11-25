@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Assignment;
 
 public class LinearSearch {
     public static int find(int[] arr,int target,int idx){

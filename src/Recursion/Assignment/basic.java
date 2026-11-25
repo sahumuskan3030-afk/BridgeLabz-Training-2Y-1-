@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Assignment;
 
 public class basic {
     public static void print1(int idx){

@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Assignment;
 
 public class fact {
     public static int factorial(int n){

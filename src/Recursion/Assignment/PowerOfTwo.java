@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Assignment;
 
 public class PowerOfTwo {
     public static boolean power(int n){

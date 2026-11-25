@@ -1,4 +1,4 @@
-package stack.BasicPromblem;
+package stack.Assignment;
 
 public class display {
 //    public class StackOps{

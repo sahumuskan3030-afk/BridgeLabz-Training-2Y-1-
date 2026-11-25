@@ -1,4 +1,4 @@
-package stack.leetcode;
+package stack.Assignment;
 
 import java.util.Stack;
 

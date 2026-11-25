@@ -1,13 +1,13 @@
-package stack.leetcode;
+package stack.Assignment;
 
 import java.util.Stack;
 
-public class Removeduplicata {
+public class RemovingStar {
     public static String remove(String s){
         Stack<Character> st=new Stack<>();
         for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
-            if(!st.isEmpty()&& st.peek()==ch){
+            if(ch=='*'){
                 st.pop();
             }else{
                 st.push(ch);
@@ -15,14 +15,13 @@ public class Removeduplicata {
         }
 
         StringBuilder sb=new StringBuilder();
-
-        while(!st.isEmpty()){
+        while(!st.empty()){
             sb.append(st.pop());
         }
         return sb.reverse().toString();
     }
     static void main() {
-        String s="abdcba";
+        String s="leet**cod*e";
         System.out.println(remove(s));
     }
 }

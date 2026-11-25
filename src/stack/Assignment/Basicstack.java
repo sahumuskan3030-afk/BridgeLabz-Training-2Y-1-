@@ -1,4 +1,4 @@
-package stack.BasicPromblem;
+package stack.Assignment;
 
 import java.util.Stack;
 
